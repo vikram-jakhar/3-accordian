@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Work+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1160px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.bg-sec {
+    background-color: #F7F7F7;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+
+.head {
+    color: var(--gray, #808080);
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 24px 21px;
+    max-width: 540px;
+    height: 100%;
+    border-radius: 20px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 11px 44px -10px rgba(0, 0, 0, 0.25);
+}
+
+.accordian-head {
+    color: var(--gray, #808080);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.accordian-item1 {
+    cursor: pointer;
+    height: 59px;
+    border: 1px solid var(--border, rgba(0, 0, 0, 0.10));
+    border-radius: 5px;
+    padding: 17px 11px 13px 19px;
+    overflow: hidden;
+}
+
+.accordian-content {
+    color: var(--gray, #808080);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding-top: 20px;
+
+}
+
+.mt-43 {
+    margin-top: 43px;
+}
+
+.accordian-item1.active {
+    border: 1px solid #128DFF;
+}
+
+.accordian-item1.active .group {
+    color: black;
+}
+
+.accordian-item1.active .group svg {
+    transform: rotate(180deg);
+}
+
+.active {
+    height: unset;
+}
+
+.bg-color {
+    background-color: #F6E300;
+}
+
+.accordion2 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.color-black {
+    color: #000 !important;
+}
+
+.accordian-content2 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 20px;
+    opacity: 0.7;
+    max-width: 866px;
+
+}
+
+.bg-yelo {
+    background-color: #FFF03F;
+}
+
+.bg-bl {
+    background-color: #000A1A;
+}
+
+.bg-blu {
+    border-radius: 15px;
+    background: #031227;
+}
+
+.accordian-content3 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 20px;
+    opacity: 0.7;
+    max-width: 800px;
+}
+
+.accordion3 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.accordian-item1.active .group3 {
+    color: #FFF;
+}
+
+.accordian-item1.active .group3 svg {
+    transform: rotate(180deg);
+}
+
+.card1 {
+    border-radius: 10px;
+    border: 2px solid #DDD;
+    ;
+    background: #FFF;
+    width: 400px;
+    height: 268px !important;
+    flex-shrink: 0;
+    margin-right: 15px;
+}
+
+.head2 {
+    color: #0B132A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.p {
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.justify-spacebetween {
+    justify-content: space-between;
+}
+
+.mt-30 {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.p1 {
+    color: #0B132A;
+    font-family: Rubik;
+    max-width: 340px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.text-align {
+    text-align: left;
+}
+
+.mb-30 {
+    padding-bottom: 30px;
+}
+
+.nextbtn {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #F53;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.nextbtn:hover {
+    background-color: red;
+    transition: all 300ms linear;
+}
+
+.nextbtn:hover svg {
+    fill: #FFF;
+}
+
+.absolute {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+}
+
+.absolute2 {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+}
+
+.slick-dots li button:before {
+    top: 0;
+    left: 0;
+    width: 15px !important;
+    height: 15px !important;
+    content: '' !important;
+    color: #F53838 !important;
+
+    border: 1px solid #F53838 !important;
+    border-radius: 50% !important;
+}
+
+.slider .slick-dots li.slick-active button:before {
+    color: #f5383881;
+    width: 45px !important;
+    border-radius: 20% !important;
+    background: #F53838;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 40% !important;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.p-sec-2 {
+    color: var(--Paragraph, #7B7B7B);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 320px;
+    padding-bottom: 25px;
+    margin-bottom: 0 !important;
+}
+
+
+.Phillip {
+    color: var(--Orange, #FF5300);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.CEO {
+    color: var(--Paragraph, #7B7B7B);
+    font-family: Poppins;
+    font-size: 12.8px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.slider2 .slick-dots {
+    position: absolute;
+    bottom: -88px !important;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    color: #128DFF;
+}
+
+.nextbtn2 {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #F53;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.nextbtn2:hover {
+    background-color: red;
+    transition: all 300ms linear;
+}
+
+.nextbtn2:hover svg {
+    fill: #FFF;
+}
+
+.bg-blue {
+    background-color: #4267B2;
+}
+
+.Graphic {
+    color: var(--Orange, #FF5300);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.Stellar {
+    color: var(--Black, #373737);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    max-width: 217px;
+}
+
+.Cristofer {
+    color: var(--Black, #373737);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.January {
+    color: var(--gray-paragraph, #7B7B7B);
+    font-family: Work Sans;
+    font-size: 12.8px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.slider3 .slick-dots {
+    position: absolute;
+    bottom: -88px !important;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    color: #128DFF;
+}
+.slider3 .slick-dots li.slick-active button:before {
+    color: black;
+    width: 45px !important;
+    border-radius: 20% !important;
+    background: black;
+}
+.slick-dots li button:before {
+    top: 0;
+    left: 0;
+    width: 15px !important;
+    height: 15px !important;
+    content: '' !important;
+    color: blue !important;
+
+    border: 1px solid black !important;
+    border-radius: 50% !important;
+}
